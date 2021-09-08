@@ -1,9 +1,11 @@
 import { StyledScreen } from "./Screen.style";
 
 const Screen = ({ className, result }) => {
+  const resultWithComas = result.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
   return (
     <div className={className}>
-      <p>{result}</p>
+      <p>{resultWithComas}</p>
     </div>
   );
 };

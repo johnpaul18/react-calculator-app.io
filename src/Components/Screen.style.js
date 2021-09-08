@@ -20,4 +20,5 @@ export const StyledScreen = (component) => styled(component)`
   align-items: center;
   justify-content: flex-end;
   font-weight: 700;
+  overflow: hidden;
 `;
