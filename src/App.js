@@ -95,7 +95,7 @@ function App() {
 
     setCalculatorValues({
       operation: "",
-      screenValue: `${result}`,
+      screenValue: `${result.toFixed(2)}`,
       addend: addend2,
     });
   };
