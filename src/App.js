@@ -165,13 +165,7 @@ function App() {
 
             <Button t1={theme} t2={2} click={inputValue} area="one" name="1" />
             <Button t1={theme} t2={2} click={inputValue} area="two" name="2" />
-            <Button
-              t1={theme}
-              t2={2}
-              click={inputValue}
-              area="three"
-              name="3"
-            />
+            <Button t1={theme} t2={2} click={inputValue} area="three" />
             <Button
               t1={theme}
               t2={2}
@@ -202,14 +196,12 @@ function App() {
               area="mul"
               name="x"
             />
-
             <Button t1={theme} t2={0} click={reset} area="reset" name="RESET" />
 
             <Button t1={theme} t2={1} click={getResult} area="equal" name="=" />
           </Keypad>
         </Calculator>
       </Container>
-      <Attributes />
     </>
   );
 }
