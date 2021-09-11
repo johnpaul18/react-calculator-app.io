@@ -32,9 +32,8 @@ export const StyledButton = (component) => styled(component)`
   margin: 0;
   border-radius: 5px;
   letter-spacing: 1px;
-  transition: 0.5s;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 `;
