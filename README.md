@@ -1,5 +1,5 @@
 # Frontend Mentor - Calculator app
-# [MY OUTPUT](https://react-calculator-fm.netlify.app/)
+# [MY OUTPUT](https://fmcalc.netlify.app/)
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 ## Welcome! 👋
